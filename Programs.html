@@ -1,54 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Programs - BrightFuture</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Explore BrightFuture Learning Center’s programs designed to empower students through education and creativity." />
+  <meta name="keywords" content="education, programs, BrightFuture, tutoring, computer literacy, creative arts" />
+  <meta name="author" content="BrightFuture Learning Center" />
+  <title>Programs | BrightFuture Learning Center</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
 </head>
 <body>
+
+  <!-- HEADER -->
   <header>
-    <h1>Our Programs</h1>
+    <div class="logo">
+      <h1>BrightFuture</h1>
+      <p>Learning Center</p>
+    </div>
+    <nav id="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="programs.html" class="active">Programs</a></li>
+        <li><a href="enquiry.html">Enquiry</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+    </nav>
   </header>
 
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About Us</a></li>
-      <li><a href="programs.html" class="current">Programs</a></li>
-      <li><a href="enquiry.html">Enquiry</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
+  <!-- MAIN CONTENT -->
+  <main class="programs-page">
+    <section class="intro">
+      <h2>Our Programs</h2>
+      <p>We offer a wide range of educational and personal development programs aimed at helping students grow academically, socially, and creatively.</p>
+    </section>
 
-  <section>
-    <h2>Explore Our Programs</h2>
-    <div class="program-cards">
+    <section class="program-cards">
       <div class="program-card">
-        <img src="images/program1.jpg" alt="Early Childhood Program">
-        <p>🌟 Early Childhood Development</p>
+        <img src="images/program1.jpg" alt="Early Childhood Program" />
+        <h3>🌟 Early Childhood Development</h3>
+        <p>Helping young children build essential learning and social skills through guided play and literacy activities.</p>
       </div>
-      <div class="program-card">
-        <img src="images/program2.jpg" alt="Primary School Tutoring">
-        <p>📘 Primary School Tutoring</p>
-      </div>
-      <div class="program-card">
-        <img src="images/program3.jpg" alt="Computer Literacy">
-        <p>💻 Computer Literacy Classes</p>
-      </div>
-      <div class="program-card">
-        <img src="images/program4.jpg" alt="Creative Arts">
-        <p>🎨 Creative Arts Workshops</p>
-      </div>
-    </div>
-  </section>
 
+      <div class="program-card">
+        <img src="images/program2.jpg" alt="Primary School Tutoring" />
+        <h3>📘 Primary School Tutoring</h3>
+        <p>Providing one-on-one and group tutoring to strengthen understanding in key subjects like Math, Science, and English.</p>
+      </div>
+
+      <div class="program-card">
+        <img src="images/program3.jpg" alt="Computer Literacy" />
+        <h3>💻 Computer Literacy Classes</h3>
+        <p>Introducing students to digital skills, online safety, and basic coding to prepare them for a tech-driven world.</p>
+      </div>
+
+      <div class="program-card">
+        <img src="images/program4.jpg" alt="Creative Arts" />
+        <h3>🎨 Creative Arts Workshops</h3>
+        <p>Encouraging creativity and self-expression through art, music, and drama activities.</p>
+      </div>
+    </section>
+
+    <section class="cta">
+      <h3>Get Involved or Join a Program</h3>
+      <a href="enquiry.html" class="btn">Make an Enquiry</a>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
   <footer>
-    <p>&copy; 2025 BrightFuture Learning Center</p>
+    <p>&copy; 2025 BrightFuture Learning Center | All Rights Reserved</p>
     <p>
       <a href="#">Facebook</a> | 
       <a href="#">Instagram</a> | 
       <a href="#">Twitter</a>
     </p>
   </footer>
+
 </body>
 </html>
