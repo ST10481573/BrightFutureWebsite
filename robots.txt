@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Block any private files or admin folders (if they existed)
+Disallow: /admin/
+Disallow: /private/
+
+# Point search engines to your sitemap
+Sitemap: https://www.brightfuture.org/sitemap.xml
