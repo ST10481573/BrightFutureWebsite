@@ -1,49 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Enquiry - BrightFuture</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Contact BrightFuture Learning Center to ask questions, join programs, or become a volunteer." />
+  <meta name="keywords" content="BrightFuture, enquiry, contact, programs, education" />
+  <meta name="author" content="BrightFuture Learning Center" />
+  <title>Enquiry | BrightFuture Learning Center</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
 </head>
 <body>
+
+  <!-- HEADER -->
   <header>
-    <h1>Enquiry Form</h1>
+    <div class="logo">
+      <h1>BrightFuture</h1>
+      <p>Learning Center</p>
+    </div>
+    <nav id="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="programs.html">Programs</a></li>
+        <li><a href="enquiry.html" class="active">Enquiry</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+    </nav>
   </header>
 
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About Us</a></li>
-      <li><a href="programs.html">Programs</a></li>
-      <li><a href="enquiry.html" class="current">Enquiry</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
+  <!-- ENQUIRY SECTION -->
+  <main class="enquiry-page">
+    <section class="enquiry-intro">
+      <h2>We’d Love to Hear From You</h2>
+      <p>Have questions about our programs or want to get involved? Fill in the form below, and our team will respond as soon as possible.</p>
+      <img src="images/enquiry.jpg" alt="Ask Us Anything" class="enquiry-img" />
+    </section>
 
-  <section>
-    <h2>Ask Us Anything</h2>
-    <img src="images/enquiry.jpg" alt="Ask Us Anything">
-    <form action="mailto:info@brightfuture.org" method="post" enctype="text/plain">
-      <label for="name">Name:</label>
-      <input type="text" name="name" id="name" required>
+    <section class="enquiry-form">
+      <form action="mailto:info@brightfuture.org" method="post" enctype="text/plain">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
 
-      <label for="email">Email:</label>
-      <input type="email" name="email" id="email" required>
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
 
-      <label for="message">Message:</label>
-      <textarea name="message" id="message" required></textarea>
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" placeholder="Reason for enquiry">
 
-      <button type="submit">Submit</button>
-    </form>
-  </section>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="6" placeholder="Write your message..." required></textarea>
 
+        <button type="submit" class="btn">Submit Enquiry</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
   <footer>
-    <p>&copy; 2025 BrightFuture Learning Center</p>
+    <p>&copy; 2025 BrightFuture Learning Center | All Rights Reserved</p>
     <p>
       <a href="#">Facebook</a> | 
       <a href="#">Instagram</a> | 
       <a href="#">Twitter</a>
     </p>
   </footer>
+
 </body>
 </html>
