@@ -1,76 +1,47 @@
-# BrightFutureWebsite
-# BrightFuture Learning Center Website
+# 🌟 BrightFuture Learning Center Website  
 
-## 🏫 Project Overview
-BrightFuture Learning Center is an educational website created as part of the Web Development POE. The site aims to provide information about the organization, its programs, and ways to get in touch. It is fully responsive and accessible, with a focus on a clean user experience across desktop, tablet, and mobile devices.
+[![Made with HTML5](https://img.shields.io/badge/HTML5-orange?logo=html5&logoColor=white)]()  
+[![Made with CSS3](https://img.shields.io/badge/CSS3-blue?logo=css3&logoColor=white)]()  
+[![Made with JavaScript](https://img.shields.io/badge/JavaScript-yellow?logo=javascript&logoColor=black)]()  
+[![Responsive Design](https://img.shields.io/badge/Responsive-Yes-brightgreen?logo=responsivedesign&logoColor=white)]()  
 
-**Pages included:**  
-- Home (`index.html`)  
-- About Us (`about.html`)  
-- Programs (`programs.html`)  
-- Enquiry (`enquiry.html`)  
-- Contact (`contact.html`)  
-
-The website is styled using an **external CSS file (`style.css`)** with a consistent color scheme, typography, and layout.
+> 🌐 **Live Demo:** [Click here to view the website](https://st10481573.github.io/BrightFutureWebsite/)  
+> 💾 **Repository:** [BrightFutureWebsite on GitHub](https://github.com/st10481573/BrightFutureWebsite)  
 
 ---
 
-## 📋 Change Log  
+## 🏫 Project Overview  
+**BrightFuture Learning Center** is a fully responsive educational website developed for the **Web Development POE (Part 3)**.  
+It provides visitors with details about the organization’s mission, literacy programs, volunteer opportunities, and contact options.  
 
-| Date       | Page            | Changes Implemented                                                                |
-|------------|-----------------|------------------------------------------------------------------------------------|
-| 2025-09-26 | All pages       | Replaced inline CSS with external `style.css`                                      |
-| 2025-09-26 | All pages       | Applied consistent typography and spacing                                          |
-| 2025-09-26 | `index.html`    | Fixed hero image path and improved image responsiveness                            |
-| 2025-09-26 | `programs.html` | Styled program cards with consistent layout and image scaling                      |
-| 2025-09-26 | `enquiry.html`  | Polished form styling, added semantic `<main>` and `<section>` tags                |
-| 2025-09-26 | `contact.html`  | Added semantic tags, improved image alt text and contact info display              |
-| 2025-09-26 | All pages       | Added responsive design: media queries for tablets and mobile devices              |
-| 2025-09-26 | All pages       | Updated navigation menu to highlight the current page                              |
-| 2025-09-26 | README.md       | Created change log and added instructions for screenshots                          |
+The project demonstrates clean, semantic HTML, structured CSS for responsiveness, and JavaScript interactivity across all pages.  
 
-*Note: All edits were made to address feedback from Part 1 and to meet Part 2 requirements for CSS styling and responsive design.*
+**Website Pages:**  
+- 🏠 **Home** (`index.html`)  
+- 👩‍🏫 **About Us** (`about.html`)  
+- 📚 **Programs** (`programs.html`)  
+- 📝 **Enquiry** (`enquiry.html`)  
+- 📞 **Contact** (`contact.html`)  
 
 ---
 
-## 🖥️ Screenshots  
+## ⚡ Features and Functionality  
 
-**Desktop View:**  
-![Desktop Screenshot](screenshots/desktop.png)  
+### 💻 Core Features  
+- **Responsive Navigation Menu** with hamburger toggle for mobile.  
+- **Smooth Scroll Animation** for better navigation flow.  
+- **Interactive Forms** with live feedback after submission.  
+- **Lightbox Image Gallery** for fullscreen previews.  
+- **Accordion Effect** to expand or collapse program details.  
+- **Clean, Mobile-First Design** that adapts seamlessly across devices.  
 
-**Tablet View (~768px):**  
-![Tablet Screenshot](screenshots/tablet.png)  
-
-**Mobile View (~375px):**  
-![Mobile Screenshot](screenshots/mobile.png)  
-
-> *Replace the placeholder paths with your actual screenshot file paths.*
-
----
-
-## 📐 Features and Styling
-- **External CSS** applied consistently across all pages.  
-- **Responsive design** using media queries for tablet and mobile breakpoints.  
-- **Semantic HTML structure** for better accessibility and SEO.  
-- **Clean layout** with header, nav, main content, and footer.  
-- **Navigation menu** highlights the current page.  
-- **Interactive form** on the Enquiry page.  
-- **Optimized images** for responsiveness.  
+### 🎨 Design Highlights  
+- Color palette: **Royal Blue (#004aad)** and **Gold (#ffb703)**.  
+- Rounded corners, soft shadows, and hover transitions.  
+- Consistent typography and spacing using modern sans-serif fonts.  
+- Subtle entrance animations (fade-in) for a polished visual experience.  
 
 ---
 
-## 🔗 References
-1. Mozilla Developer Network (MDN) – HTML & CSS documentation: https://developer.mozilla.org  
-2. W3Schools – HTML and CSS tutorials: https://www.w3schools.com  
-3. FreeCodeCamp – Responsive Web Design Guide: https://www.freecodecamp.org  
-4. CSS Tricks – Flexbox Guide: https://css-tricks.com/snippets/css/a-guide-to-flexbox/  
-5. Stack Overflow – Various solutions for responsive images and navigation menus  
+## 🧩 File Structure  
 
----
-
-## ✅ Submission Instructions
-1. Ensure all website files (`.html`, `style.css`, `images`) are included in the GitHub repository.  
-2. Include screenshots for desktop, tablet, and mobile in the `screenshots` folder.  
-3. Update this README with the correct screenshot paths.  
-4. Commit and push changes to GitHub with descriptive commit messages.  
-5. Submit the GitHub repository link to the Learning Management System (LMS).
